@@ -112,6 +112,12 @@ nav a:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 20px rgba(106, 27, 154, 0.15);
 }
+.card-icon {
+  font-size: 30px;
+  color: #6a1b9a;
+  margin-bottom: 15px;
+  display: block;
+}
 .card h3 {
   color: #6a1b9a;
   margin-bottom: 12px;
