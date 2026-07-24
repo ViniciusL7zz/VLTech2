@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #2e1a47;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #ffffff;
+  border-bottom: 3px solid #6a1b9a;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #6a1b9a;
+}
+
+.logo span {
+  background-color: #6a1b9a;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #2e1a47;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+nav a:hover {
+  color: #6a1b9a;
+}
+
+/* Hero */
+.hero {
+  background-color: #6a1b9a;
+  color: #ffffff;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 500px;
+  margin-bottom: 30px;
+  color: #eae0f5;
+}
+
+.btn-cta {
+  background-color: #ffffff;
+  color: #6a1b9a;
+  font-weight: bold;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.btn-cta:hover {
+  background-color: #eae0f5;
+}
+
+/* Serviços */
+.servicos {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.servicos h2 {
+  color:
