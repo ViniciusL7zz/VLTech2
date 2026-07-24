@@ -56,7 +56,9 @@ nav a:hover {
 }
 /* Hero */
 .hero {
-  background-color: #6a1b9a;
+  background:
+    linear-gradient(rgba(106, 27, 154, 0.85), rgba(46, 26, 71, 0.9)),
+    url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600') center/cover no-repeat;
   color: #ffffff;
   height: 480px;
   display: flex;
