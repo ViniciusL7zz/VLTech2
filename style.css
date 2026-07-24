@@ -94,11 +94,49 @@ nav a:hover {
   background-color: #eae0f5;
 }
 
-/* Serviços */
 .servicos {
-  padding: 60px 40px;
+  padding: 70px 40px;
   text-align: center;
+  background-color: #faf6ff;
 }
 
 .servicos h2 {
-  color:
+  color: #6a1b9a;
+  font-size: 32px;
+  margin-bottom: 45px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0d0f0;
+  border-radius: 10px;
+  padding: 35px 25px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(106, 27, 154, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(106, 27, 154, 0.15);
+}
+
+.card h3 {
+  color: #6a1b9a;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #4a3760;
+  line-height: 1.6;
+}
